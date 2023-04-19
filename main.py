@@ -3,7 +3,7 @@ import os
 # Configuração da porta da impressora
 port = "LPT1"  # Altere para a porta correta da sua impressora
 
-# Comando ZPL para imprimir "Hello, World!" em uma fonte de 50 pontos
+# Etiqueta 
 zpl_command = '''
 	CT~~CD,~CC^~CT~
 	^XA~TA000~JSN^LT0^MNW^MTT^PON^PMN^LH0,0^JMA^PR4,4~SD15^JUS^LRN^CI0^XZ
